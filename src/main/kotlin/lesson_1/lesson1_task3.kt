@@ -3,9 +3,12 @@ fun main() {
     val yearOfFlight = 1961
     println(yearOfFlight)
 
-    val takeoffTime: String = ("09:07")
-    println(takeoffTime)
+    var hour = 9
+    var minute = 7
+    println(hour)
+    println(minute)
 
-    val boardingTime: String = ("10:55")
-    print(boardingTime)
+    hour = 10
+    minute = 55
+    print("$hour:$minute")
 }
